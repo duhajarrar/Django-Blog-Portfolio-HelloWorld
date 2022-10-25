@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    # 'hello_world',
+    'hello_world',
     "projects",
     "blog",
 ]
@@ -57,7 +57,7 @@ ROOT_URLCONF = "personal_portfolio.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": ["personal_portfolio/templates/"],
+        "DIRS": ["personal_portfolio/templates/","personal_portfolio/static/"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
